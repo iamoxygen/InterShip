@@ -149,20 +149,20 @@ button {
 
 .imageDiv {
   background-color: blue;
-  height: 550px;
-  width: 800px;
+  height: 500px;
+  width: 50%;
   border-radius: 20px;
-  margin-left: 120px;
+  margin-left: 8%;
   background-size: 850px 550px;
   background-repeat: no-repeat;
 }
 .overlap {
   background-color: white;
   height: 350px;
-  width: 600px;
+  width: 40%;
   position: absolute;
   margin-top: 3.5rem;
-  margin-left: 48rem;
+  margin-left: 51%;
   border-radius: 20px;
   box-shadow: 0 0px 35px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
   /* filter: drop-shadow(0 0 1.5rem #000); */
@@ -191,7 +191,7 @@ button {
   position: absolute;
   margin-right: 100px;
   margin-left: 210px;
-  margin-top: 60px;
+  margin-top: 13%;
 }
 .socialMediaLi {
   font-size: 2rem;
@@ -243,8 +243,8 @@ button {
   width: 120px;
   display: inline-block;
   clear: left;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 7%;
+  margin-right: 7%;
   margin-top: 30px;
   margin-bottom: 75px;
 }
@@ -342,7 +342,8 @@ button {
       width: 84%;
       position: absolute;
       margin-top: 40%;
-      margin-left: 58px;
+      margin-left: 8%;
+      margin-right: 8%;
       border-radius: 20px;
       box-shadow: 0 0px 35px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
       /* filter: drop-shadow(0 0 1.5rem #000); */
@@ -446,7 +447,7 @@ button {
         width: 100%;
       }
       nav > .logo {
-        margin-left: 42%;
+        margin-left: 38%;
         display: inline;
         font-size: 30px;
         position: absolute;
@@ -478,7 +479,7 @@ button {
       }
       .fa-search {
         position: absolute;
-        margin-left: 84%;
+        margin-left: 73%;
         margin-top: 10px;
         font-size: 1.5rem;
         color: #000;
@@ -489,7 +490,7 @@ button {
       }
       .headHeadling {
         text-align: center;
-        font-size: 4rem;
+        font-size: 2rem;
         margin-top: 2rem;
       }
       number {
@@ -497,16 +498,16 @@ button {
       }
       .HeadPara {
         text-align: center;
-        font-size: 2.1rem;
+        font-size: 1rem;
         color: #909090;
       }
       button {
         margin-top: 15px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 15px;
         font-size: 1.2rem;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
         border-radius: 10px;
         background-color: #004687;
         border-style: none;
@@ -518,20 +519,21 @@ button {
       }
     
       .imageDiv {
-        height: 400px;
+        height: 300px;
         width: 92%;
         border-radius: 20px;
         margin-left: 29px;
-        background-size: 800px 500px;
+        background-size: 400px 300px;
         background-repeat: no-repeat;
       }
       .overlap {
         background-color: white;
-        height: 300px;
+        height: 250px;
         width: 84%;
         position: absolute;
-        margin-top: 40%;
-        margin-left: 58px;
+        margin-top: 55%;
+        margin-left: 12%;
+        margin-left: 11%;
         border-radius: 20px;
         box-shadow: 0 0px 35px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
         /* filter: drop-shadow(0 0 1.5rem #000); */
@@ -544,7 +546,7 @@ button {
       }
       .overlap h1 {
         margin-top: 5px;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
         text-transform: capitalize;
         margin-bottom: 0px;
@@ -555,14 +557,14 @@ button {
         margin-bottom: 0px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #004687;
         text-transform: uppercase;
       }
       #overlapExplain {
         color: #909090;
-        margin-top: 15px;
-        font-size: 1.3rem;
+        margin-top: 10px;
+        font-size: 1rem;
         font-weight: 200;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
@@ -570,15 +572,15 @@ button {
         position: absolute;
         margin-right: 0px;
         float: left;
-        margin-left: 0px;
-        margin-top: 80px;
+        margin-left: 2%;
+        margin-top: 75px;
         text-decoration: none;
       }
       .socialMediaLi {
         font-size: 2.5rem;
         color: #909090;
         display: inline-block;
-        margin-left: 80px;
+        margin-left: 15px;
         text-decoration: none;
       }
       .bottomDiv {
@@ -619,12 +621,12 @@ button {
       }
       .Cirle1 {
         height: 12%;
-        width: 34%;
+        width: 30%;
         display: inline-block;
         clear: left;
         margin-left: 43px;
         margin-right: 0px;
         margin-top: 20px;
-        margin-bottom: 87px;
+        margin-bottom: 6rem;
       }
   }
