@@ -8,35 +8,31 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar {
-  background-color: #004687;
   width: 100%;
-  height: auto;
+  margin-top: 30px;
 }
-nav {
-  height: 100%;
-  margin-top: 50px;
-  width: 100%;
-  background-color: aqua;
-}
-nav .logo {
+.logo {
   margin-left: 8%;
-  margin-top: 3%;
-  display: inline-block;
+  margin-top: 2%;
+  height: 40px;
   margin-bottom: 0px;
-  margin-top: 0px;
   font-weight: bold;
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
 }
-nav a {
-  display: inline-block;
+.menu-link{
+    display: inline-block;
+    width: 60%;
+    margin-top: 0px !important;
+}
+.menu-link a {
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 0px;
-  background-color: #818181;
-  text-align: center;
+  margin-left:20%;
   cursor: pointer;
-  margin-left: 9%;
+  margin-top: 0px !important;
+  text-decoration: none;
+  color: #000;
 }
 #bars {
   display: none;
@@ -86,9 +82,9 @@ nav a {
   font-size: 60px;
 }
 
-@media screen and (max-height: 360px) {
+@media screen and (max-height: 425px) {
   .overlay a {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .overlay .closebtn {
     font-size: 40px;
@@ -98,8 +94,7 @@ nav a {
 }
 
 #searchbar {
-  margin-top: 0px;
-  margin-top: 2px;
+  margin-top: 5px;
   border-radius: 20px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -112,17 +107,19 @@ nav a {
 }
 .searchDiv {
   width: 15%;
-  background-color: #004687;
+  height: 40px;
   float: right;
   margin-right: 8%;
 }
 .fa-search {
   position: absolute;
   color: #b6b6b6;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-left: 10px;
 }
-
+.headDiv{
+    margin-top: 5rem;
+}
 .headHeadling {
   text-align: center;
   font-size: 4rem;
@@ -155,7 +152,6 @@ button {
 .midDiv {
   margin-top: 8rem;
   width: 100%;
-  background-color: #004687;
 }
 
 .imageDiv {
@@ -266,16 +262,16 @@ button {
 
 /* 2400 * 1400 */
 @media only screen and (max-width: 768px) {
-  nav {
+  .navbar {
     height: 50px;
     width: 100%;
   }
-  nav > .logo {
-    margin-left: 42%;
+     .logo {
+    margin-left: 40%;
     display: inline;
-    font-size: 30px;
+    font-size: 45px;
     position: absolute;
-    margin-top: 2px;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-family: "Times New Roman", Times, serif;
   }
@@ -287,24 +283,29 @@ button {
   }
   #searchbar {
     display: none;
-  }
-  #bars {
-    display: inline;
+    
   }
   #searchIcon {
-    display: inline;
+    display: inline-block;
+  }
+  .menu-link{
+      display:none;
+  }
+  .searchDiv{
+      display:none;
   }
   #bars {
+    display: inline-block;
     font-size: 30px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 5px !important;
     margin-left: 35px;
     margin-right: 0px;
   }
   .fa-search {
     position: absolute;
     margin-left: 84%;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 1.5rem;
     color: #000;
     /* margin-right: 150px; */
@@ -464,13 +465,13 @@ button {
 }
 
 @media only screen and (max-width: 425px) {
-  nav {
+  .navbar {
     height: 50px;
     width: 100%;
   }
-  nav > .logo {
+  .logo {
     margin-left: 33%;
-    font-size: 30px;
+    font-size: 38px;
     position: absolute;
     margin-top: 2px;
     margin-bottom: 0px;
@@ -489,7 +490,7 @@ button {
     display: none;
   }
   #bars {
-    display: inline;
+    display: inline-block;
   }
   #searchIcon {
     display: inline-block;
@@ -503,7 +504,7 @@ button {
   #bars {
     font-size: 30px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 3px !important;
     margin-left: 4%;
     margin-right: 0px;
   }
@@ -544,7 +545,7 @@ button {
     height: 300px;
     width: 92%;
     border-radius: 20px;
-    margin-left: 4%;
+    margin-left: 3%;
     margin-right: 4%;
     background-size: 400px 300px;
     background-repeat: no-repeat;
@@ -555,7 +556,7 @@ button {
     width: 84%;
     position: absolute;
     margin-top: 55%;
-    margin-left: 8%;
+    margin-left: 7%;
     margin-right: 8%;
     border-radius: 20px;
     box-shadow: 0 0px 35px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
@@ -623,7 +624,7 @@ button {
     height: 100%;
     width: 93%;
     border-radius: 20px;
-    margin-left: 4%;
+    margin-left: 3%;
     margin-right: 4%;
     margin-bottom: 100px;
     box-shadow: 0px 35px 35px 0 rgba(0, 0, 0, 0.2),
