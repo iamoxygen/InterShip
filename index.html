@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>InterShip Test</title>
+    <script>
+        const openNav = () => document.getElementById("myNav").style.width = "100%";
+        const closeNav = () => document.getElementById("myNav").style.width = "0%";
+        const searchNav = () => document.getElementById("searchNav").style.width = "100%";
+        const closeSearchNav = () => document.getElementById("searchNav").style.width = "0%";
+    </script>
+</head>
+
+<body>
+    <!---- Nav --->
+    <div class="navbar">
+        <nav>
+            <h1 class="logo">BookPad<number>.</number>
+            </h1>
+           
+                <a style="margin-right: 50px;">Home</a>
+                <a style="margin-right: 50px;">Catagories</a>
+                <a style="margin-right: 50px;">Podcasts</a>
+            
+
+            <input type="search" id="searchbar" placeholder="Search...">
+            <i id="hideSearch" class="fas fa-search"></i>
+
+            <!--- mobile-->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">Home</a>
+                    <a href="#">Categories</a>
+                    <a href="#">Podcasts</a>
+                </div>
+            </div>
+
+            <span id="bars" onclick="openNav()">&#9776;</span>
+            <span onclick="searchNav()"><i id="searchIcon" class="fa fa-search"></i></span>
+
+            <div id="searchNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSearchNav()">&times;</a>
+                <div class="overlay-content">
+                    <input type="search" placeholder="search"><button>search</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--- head Section-->
+    <div class="headDiv">
+        <h1 class="headHeadling">Home of <number>100,000+</number> <br>books and Podcasts</h1>
+        <p class="HeadPara">Get the latest books and listen to <br> the
+            latest podcasts all in one place</p>
+        <div class="button"><center><button>Get Started</button></center>></div>
+    </div>
+
+    <!--- mid Section-->
+    <div class="midDiv">
+
+        <div class="overlap">
+            <p id="overLapheadTag">Web Developer</p>
+            <h1 id="overlapHeadling">Hello this vikash Chaubey make this web page UI</h1>
+            <p id="overlapExplain">Hey, there i am from New Delhi Pursing Engineering
+                specialized in Computer Science and Engineering along
+                with my degree , I completed JavaScript , HTML, CSS, JAVA
+                course from hackerRank and E-Box.
+            </p>
+            <ul class="socialMedia">
+                <li class="socialMediaLi"><i class="fab fa-twitter"></i></li>
+                <li class="socialMediaLi"><i class="fab fa-facebook"></i></li>
+                <li class="socialMediaLi"><i class="fab fa-instagram"></i></li>
+                <li class="socialMediaLi"><i class="fab fa-linkedin-in"></i></li>
+            </ul>
+        </div>
+        <div style="background-image: url(./img/glassImage.jpg);" class="imageDiv">
+            <!-- <img src="./img/glassImage.jpg" id="image" alt="imageGlass">      -->
+        </div>
+
+    </div>
+    <!--- Bottom Section-->
+    <div class="bottomDiv">
+        <h1 id="bottomHead">Featured Writers</h1>
+
+        <!--1 --->
+        <div class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/ERBraithwaite.jfif);">
+
+            </div>
+            <p id="ERBraith" style="margin-top: 10px !important;" class="nameImg">E R Braithwaite</p>
+        </div>
+
+        <!--2 --->
+        <div class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/AnderaLevy.jpg);">
+            </div>
+            <p id="ERBraith" style="margin-top: 10px !important;" class="nameImg">Andrea Levy</p>
+        </div>
+        <!--3 --->
+        <div class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/StephenKing.jpg);">
+
+            </div>
+            <p id="ERBraith" style="margin-top: 10px !important;" class="nameImg">Stephen King</p>
+        </div>
+        <!--4 --->
+        <div class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/Jorge-Amado.jpg);">
+
+            </div>
+            <p id="ERBraith" style="margin-top: 10px !important;" class="nameImg">Jorge Amado</p>
+        </div>
+
+        <!-- 5 --->
+        <div class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/gayle-forman.jpg);">
+
+            </div>
+            <p style="margin-top: 10px !important;" class="nameImg">Gayle Forman</p>
+        </div>
+
+        <!-- 6 --->
+        <div id="updatingStyling" class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/ShashiTharoor.jpg);">
+
+            </div>
+            <p style="margin-top: 10px !important;" class="nameImg">Shashi Tharoor</p>
+        </div>
+        <!-- 7 --->
+        <div class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/J.K.Rowling.jpg);">
+
+            </div>
+            <p id="ERBraith" style="margin-top: 10px !important;" class="nameImg">J. K. Rowling </p>
+        </div>
+        <!-- 8 --->
+        <div class="Cirle1">
+            <div class="circle" style="background-image: url(./img/featuredWritersImg/JohnGreen.jpg);">
+
+            </div>
+            <p id="ERBraith" style="margin-top: 10px !important;" class="nameImg">John Green</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
