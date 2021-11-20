@@ -447,13 +447,15 @@ button {
         width: 100%;
       }
       nav > .logo {
-        margin-left: 38%;
-        display: inline;
+        margin-left: 33%;
         font-size: 30px;
         position: absolute;
         margin-top: 2px;
         margin-bottom: 0px;
         font-family: 'Times New Roman', Times, serif;
+      }
+      nav h1{
+          text-align: center;
       }
       nav a {
           display: none;
@@ -474,7 +476,7 @@ button {
         font-size: 30px;
         cursor: pointer;
         margin-top: 10px;
-        margin-left: 35px;
+        margin-left: 4%;
         margin-right: 0px;
       }
       .fa-search {
